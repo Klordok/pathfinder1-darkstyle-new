@@ -7,8 +7,8 @@
 	"styles": ["css/darkpath.css"],
 	 "socket": true,
     "url": "https://github.com/Klordok/pathfinder1-darkstyle-new",
-    "manifest": "https://github.com/Klordok/pathfinder1-darkstyle-new/blob/master/module.json",
-    "download": "https://github.com/Klordok/pathfinder1-darkstyle-new/blob/master/pathfinder1-style.zip",
+    "manifest": "https://raw.githubusercontent.com/Klordok/pathfinder1-darkstyle-new/master/module.json",
+    "download": "https://github.com/Klordok/pathfinder1-darkstyle-new/raw/master/pathfinder1-style.zip",
 	"minimumCoreVersion": "0.5.5",
 	"compatibleCoreVersion": "9.266"
 }
