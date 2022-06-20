@@ -1,14 +1,14 @@
 {
 	"name": "pathfinder1-style",
-	"title": "Pathfinder 1 - Dark-Style Addon",
-	"description": "Adds styling to the pathfinder 1 system",
-	"version": "1.2",
-	"author": "Handyfon#8390",
+	"title": "Pathfinder 1 - New Dark-Style Addon",
+	"description": "Adds updated styling to the pathfinder 1 system",
+	"version": "1.3",
+	"author": "Klordok#7223",
 	"styles": ["css/darkpath.css"],
 	 "socket": true,
-    "url": "https://github.com/Handyfon/pathfinder1-darkstyle",
-    "manifest": "https://raw.githubusercontent.com/Handyfon/pathfinder1-darkstyle/master/module.json",
-    "download": "https://github.com/Handyfon/pathfinder1-darkstyle/raw/master/pathfinder1-style.zip",
+    "url": "https://github.com/Klordok/pathfinder1-darkstyle-new",
+    "manifest": "https://github.com/Klordok/pathfinder1-darkstyle-new/blob/master/module.json",
+    "download": "https://github.com/Klordok/pathfinder1-darkstyle-new/blob/master/pathfinder1-style.zip",
 	"minimumCoreVersion": "0.5.5",
-	"compatibleCoreVersion": "0.5.5"
+	"compatibleCoreVersion": "9.266"
 }
