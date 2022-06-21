@@ -6,7 +6,7 @@ section.window-content {
     border-bottom: 2px groove #eeede0;
     background: #2C2F33;
 }
-}
+
 .pf1.sheet.actor ul.attributes li.attribute {
     background: #2C2F33;
 }
@@ -71,6 +71,16 @@ input.ability-drain {
 a.item {
     color: #c5c5c5;
 }
+/* Compendium link buttons (with the open book icon) */
+a.entity-link, a.content-link, a.inline-roll {
+    background: #ddd0;
+}
+/* Age notes */
+span.element.style {
+    color: whitesmoke;
+    font-size: 13px;
+}
+
 ::-webkit-scrollbar-thumb {
     outline: none;
     border-radius: 3px;
@@ -81,10 +91,10 @@ a.item {
     color: #848484 !important;
 }
 
-.pf1 input[type="text"], .pf1 select {
+.pf1 input[type="text"], .pf1 select, .pf1 .placeholder {
     border: 1px solid #7a7971;
     background: rgba(0, 0, 0, 0.05);
-    color: #91a1ab;
+    color: #bdbcaf;
 }
 li.tag {
     color: #bfbfbf !important;
@@ -209,6 +219,9 @@ span.tag {
     background: white !important;
     color: black;
 }
+span.text-box {
+    color: white;
+}
 .dice-roll .dice-total {
     flex: 0;
     font-size: 20px;
@@ -241,11 +254,21 @@ span.tag {
 .pf1.sheet input[type="text"]:hover, .pf1.sheet textarea:hover, .pf1.sheet input[type="text"]:focus, .pf1.sheet textarea:focus {
     border: 1px solid #fff;
 }
-.pf1.sheet.actor .tab.features label.checkbox, .pf1.sheet.actor .tab.inventory label.checkbox, .pf1.sheet.actor .tab.spellbook label.checkbox {
+.pf1.sheet.actor .tab.features label.checkbox, .pf1.sheet.actor .tab.inventory label.checkbox, .pf1.sheet.actor .tab.spellbook label.checkbox, .pf1.sheet.actor .alignment {
     text-align: left;
     flex: 0;
     margin: 0 0 0 4px;
     color: white !important;
+}
+
+/* color of character Buffs text */
+.pf1.sheet.actor .tab.buffs a.checkbox{
+    color: #acaee3;
+}
+.pf1.sheet.actor .warning {
+    background-color: #f58e00;
+    border: 1px solid #fdfdfd;
+    color: black;
 }
 form .notes, form .hint {
     flex: 0 0 100%;
@@ -286,6 +309,11 @@ form .notes, form .hint {
     color: #ffffff;
     top: -3px;
 }
+/* Source column in Compendium races browser */
+.compendium-browser .directory-container .directory-list .directory-item .entry-source {
+    color: rgb(255 253 253 / 70%);
+}
+
 .sidebar-tab .directory-list .entity {
     /* border-top: 1px solid #fff; */
     border-bottom: 1px solid #fff;
