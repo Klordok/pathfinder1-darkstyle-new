@@ -21,8 +21,8 @@ section.window-content {
     height: 94px;
     margin: 0 2px;
     text-align: center;
-    border: 2px solid #40444b;
-    background: #40444b;
+    border: 2px solid #23272A;
+    background: #23272A;
     border-radius: 3px;
     color: currentColor;
 }
@@ -105,8 +105,8 @@ span.element.style {
 
 li.tag {
     color: #bfbfbf !important;
-    background: #40444b !important;
-    border-color: #40444b!important;
+    background: #23272A !important;
+    border-color: #23272A!important;
 }
 h3 {
     color: #697ec5;
@@ -155,22 +155,22 @@ h4.form-header {
 }
 .pf1.sheet.item .details input[type="text"], .pf1.sheet.item .details select {
     border: 1px solid #7a7971;
-    background: #40444B;
+    background: #23272A;
 }
 .pf1.sheet.actor .sheet-header .header-details .attribute.speed .attribute-speed input[type="text"] {
     height: 16px;
     margin: 0;
-    background: #40444B;
+    background: #23272A;
     padding: 0;
 }
 .pf1.sheet.actor .attributes input[type="text"] {
     height: 24px;
-    background: #40444B;
+    background: #23272A;
 }
 .pf1.sheet.actor .inventory-filters .currency input[type="text"] {
     flex: 0 0 64px;
     text-align: center;
-    background: #40444B;
+    background: #23272A;
     margin-left: 8px;
     border-bottom: 2px groove #eeede0;
 }
@@ -178,7 +178,7 @@ h4.form-header {
     flex: 0 0 48px;
     text-align: center;
     margin-left: 8px;
-    background: #40444B;
+    background: #23272A;
     border-bottom: 2px groove #eeede0;
 }
 .pf1.sheet .sheet-navigation .item.active {
@@ -293,7 +293,7 @@ form .notes, form .hint {
     width: 100%;
     height: 100%;
     resize: none;
-    background: #40444B;
+    background: #23272A;
     color: whitesmoke;
 }
 #scenes .scene h3 {
@@ -330,7 +330,7 @@ li.directory-item.entity.actor.flexrow {
     background: #36393f;
 }
 li.directory-item.entity.actor.flexrow:hover {
-    background: #40444b;
+    background: #23272A;
 }
 #sidebar {
     border: 1px solid #000;
@@ -342,7 +342,7 @@ button {
 }
 button:hover {
     color: whitesmoke;
-    background: #40444b;
+    background: #23272A;
     text-shadow: 0 0 2px;
 }
 select {
