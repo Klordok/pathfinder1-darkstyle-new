@@ -45,10 +45,10 @@ section.center-pane {
     background: #2C2F33;
 }
 input {
-    color: #dcddde !important;
+    color: #23272A !important;
 }
 label {
-    color: #72767d !important;
+    color: #d5dce9 !important;
 }
 input.ability-damage {
 	color: #d77373 !important;
@@ -60,12 +60,12 @@ input.ability-drain {
 	color: #d77373 !important;
 }
 .pf1.sheet .sheet-navigation .item.active {
-    border-bottom: 3px solid #7289DA;
-    color: #ffffff;
+    border-bottom: 3px solid #697ec5;
+    color: whitesmoke;
 }
 .pf1.sheet .editable .rollable:hover {
-    color: #7289DA;
-    text-shadow: 0 0 10px #7289DA;
+    color: #697ec5;
+    text-shadow: 0 0 10px #697ec5;
     cursor: pointer;
 }
 a.item {
@@ -96,13 +96,20 @@ span.element.style {
     background: rgba(0, 0, 0, 0.05);
     color: #bdbcaf;
 }
+
+.item-list-search .search-input {
+    border: 1px solid #7a7971;
+    background-color: whitesmoke;
+    max-width: 120px;
+}
+
 li.tag {
     color: #bfbfbf !important;
     background: #40444b !important;
     border-color: #40444b!important;
 }
 h3 {
-    color: #7289DA;
+    color: #697ec5;
 }
 .pf1.sheet.actor ul.skills-list li.skill .skill-name .image-d20, .pf1.sheet.actor ul.skills-list li.sub-skill .skill-name .image-d20 {
     filter: contrast(0.5);
@@ -115,19 +122,19 @@ h3 {
     margin: 2px 0;
     padding: 0;
     background: rgba(255, 255, 255, 0.05);
-    border: 2px groove #ffffff;
+    border: 2px groove #23272A;
     font-weight: bold;
     line-height: 24px;
 }
 i {
-    color: white;
+    color: whitesmoke;
 }
 .pf1.sheet.actor .inventory-list .inventory-header .item-controls a.item-create {
-    color: white;
+    color: whitesmoke;
     flex: 0 0 100%;
 }
 .pf1.sheet.actor .inventory-list .item-detail {
-    color: #FFFFFF;
+    color: whitesmoke;
 }
 .tox.tox-tinymce {
     background: white;
@@ -141,10 +148,10 @@ i {
 }
 .pf1 .form-group label.header {
     flex: 0 0 100%;
-    color: #7289da !important;
+    color: #697ec5 !important;
 }
 h4.form-header {
-    color: #7289da;
+    color: #697ec5;
 }
 .pf1.sheet.item .details input[type="text"], .pf1.sheet.item .details select {
     border: 1px solid #7a7971;
@@ -175,12 +182,12 @@ h4.form-header {
     border-bottom: 2px groove #eeede0;
 }
 .pf1.sheet .sheet-navigation .item.active {
-    border-bottom: 3px solid #7289DA;
-    color: #ffffff;
+    border-bottom: 3px solid #697ec5;
+    color: whitesmoke;
     background: #23272A;
 }
 a.item:hover {
-    color: #ffffff;
+    color: whitesmoke;
     background: #23272A;
 }
 .pf1.sheet.actor.character .sheet-header .charlevel .xpbar .bar {
@@ -206,13 +213,13 @@ a.item:hover {
     border-radius: 5px;
     margin: 3px;
     padding: 5px;
-    color: #ffffff;
+    color: whitesmoke;
     background: #36393f;
     font-size: 14px;
 }
 #chat-log .message .message-header {
     line-height: 20px;
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 span.tag {
@@ -220,13 +227,13 @@ span.tag {
     color: black;
 }
 span.text-box {
-    color: white;
+    color: whitesmoke;
 }
 .dice-roll .dice-total {
     flex: 0;
     font-size: 20px;
     font-weight: bold;
-    background: #7289DA;
+    background: #697ec5;
 }
 #chat-log .message .property-group label {
     flex: 2;
@@ -236,7 +243,7 @@ span.text-box {
 .pf1 input[type="text"], .pf1 select {
     border: 1px solid #7a7971;
     background: rgba(0, 0, 0, 0.05);
-    color: #ffffff;
+    color: whitesmoke;
 }
 .pf1.sheet select {
     flex: 1;
@@ -250,6 +257,7 @@ span.text-box {
     border-color: #90a0ab;
     min-height: 16px;
     padding: 1px 5px;
+    color: whitesmoke;
 }
 .pf1.sheet input[type="text"]:hover, .pf1.sheet textarea:hover, .pf1.sheet input[type="text"]:focus, .pf1.sheet textarea:focus {
     border: 1px solid #fff;
@@ -273,20 +281,20 @@ span.text-box {
 form .notes, form .hint {
     flex: 0 0 100%;
     font-size: 12px;
-    color: #ffffff;
+    color: whitesmoke;
     margin: 3px 0;
 }
 #settings button {
     margin: 0.5em 0;
     background: #2C2F33;
-    color: white;
+    color: whitesmoke;
 }
 #chat-form textarea {
     width: 100%;
     height: 100%;
     resize: none;
     background: #40444B;
-    color: white;
+    color: whitesmoke;
 }
 #scenes .scene h3 {
     line-height: 90px;
@@ -297,7 +305,7 @@ form .notes, form .hint {
     border: solid 1px;
 }
 #chat-log .message.whisper {
-    background: #7289da38;
+    background: #697ec538;
     border: 2px solid #545469;
 }
 #chat-controls div.roll-type-select select {
@@ -306,7 +314,7 @@ form .notes, form .hint {
     height: 24px;
     background: rgb(64, 68, 75) !important;
     border: 1px solid #23272a;
-    color: #ffffff;
+    color: whitesmoke;
     top: -3px;
 }
 /* Source column in Compendium races browser */
@@ -329,11 +337,11 @@ li.directory-item.entity.actor.flexrow:hover {
     background: #23272A;
 }
 button {
-    color: white;
+    color: whitesmoke;
     background: black;
 }
 button:hover {
-    color: white;
+    color: whitesmoke;
     background: #40444b;
     text-shadow: 0 0 2px;
 }
@@ -355,12 +363,12 @@ select {
     position: relative;
     z-index: 99;
     color: #EEE;
-    text-shadow: 1px 1px 30px #7289da;
+    text-shadow: 1px 1px 30px #697ec5;
     color: white !important;
 }
-li {
+/* li {
     color: #d9dacc;
-}
+} */
 #module-management .package-list .package-title, #module-management .package-list .package-metadata, #module-management .package-list .package-description {
     color: #fdfdfa;
 }
