@@ -2,7 +2,7 @@
 	"name": "pathfinder1-style-new",
 	"title": "Pathfinder 1 - New Dark-Style Addon",
 	"description": "Adds updated styling to the pathfinder 1 system",
-	"version": "1.51",
+	"version": "1.52",
 	"author": "Klordok#7223",
 	"styles": ["css/darkpath.css"],
 	 "socket": true,

@@ -146,6 +146,17 @@ section.window-content {
     text-align: right;
     margin-left: 7px;
 }
+.filepicker .display-modes a {
+    margin: 0 3px;
+    border: 1px solid var(--darkpath-bg--color-shadow-dark);
+    background: var(--darkpath-bg--color-bg-btn-minor-inactive);
+    border-radius: 3px;
+}
+.filepicker .display-modes a.active {
+    text-shadow: 0 0 6px var(--darkpath-bg--color-shadow-highlight);
+    border: 1px solid var(--darkpath-bg--color-border-dark);
+    background: var(--darkpath-bg--color-bg-btn-minor-active);
+}
 section.center-pane {
     background: #2C2F33;
 }
@@ -364,6 +375,14 @@ span.text-box {
     font-weight: bold;
     background: var(--darkpath-text--color-text-light-heading);
 }
+
+.dice-tooltip .part-header .part-total {
+    background: var(--darkpath-border--color-border-light-primary);
+}
+.dice-tooltip .part-header .part-flavor {
+    color: var(--darkpath-neutral-text);
+}
+
 #chat-log .message .property-group label {
     flex: 2;
     font-weight: bold;
