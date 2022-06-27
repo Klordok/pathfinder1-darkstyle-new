@@ -1,58 +1,24 @@
 :root {
-	--darkpath-text--color-text-light-highlight: #e4e4c7;
-	--darkpath-text--color-text-light-heading: #acbeff;
-	--darkpath-border--color-text-light-heading: #42474a;
-	--darkpath-text--color-text-light-primary: #b4ada4;
-	--darkpath-border--color-text-light-primary: #474d50;
-	--darkpath-text--color-text-dark-primary: #dad7d2;
-	--darkpath-text--color-text-dark-secondary: #bbb5ac;
-	--darkpath-text--color-text-dark-header: #d4d0ca;
-	--darkpath-text--color-text-dark-inactive: #9e9589;
-	--darkpath-text--color-text-hyperlink: #ff741a;
-	--darkpath-text--color-text-light-0: #e8e6e3;
-	--darkpath-text--color-text-light-1: #dddad6;
-	--darkpath-text--color-text-light-2: #d3cfc9;
-	--darkpath-text--color-text-light-3: #c8c3bc;
-	--darkpath-text--color-text-light-4: #bdb7af;
-	--darkpath-text--color-text-light-5: #b2aca2;
-	--darkpath-text--color-text-light-6: #a8a095;
-	--darkpath-border--color-text-light-6: #4d5356;
-	--darkpath-text--color-text-light-7: #9d9488;
-	--darkpath-text--color-text-dark-1: #dddad6;
-	--darkpath-border--color-text-dark-1: #867d6e;
-	--darkpath-text--color-text-dark-2: #d3cfc9;
-	--darkpath-text--color-text-dark-3: #bdb7af;
-	--darkpath-text--color-text-dark-4: #b2aca2;
-	--darkpath-text--color-text-dark-5: #a8a095;
-	--darkpath-text--color-text-dark-6: #9d9488;
-	--darkpath-text--color-border-light-1: #d3cfc9;
-	--darkpath-border--color-border-light-1: #3a3e41;
-	--darkpath-border--color-border-light-2: #4d5356;
-	--darkpath-border--color-border-dark-1: #867d6e;
-	--darkpath-border--color-border-dark-2: #81786a;
-	--darkpath-border--color-border-dark-3: #7b7265;
-	--darkpath-border--color-border-dark-4: #766d61;
-	--darkpath-border--color-border-dark-5: #6a6357;
-	--darkpath-bg--color-shadow-primary: #cc0000;
-	--darkpath-bg--color-shadow-highlight: #cc5000;
-	--darkpath-bg--color-shadow-dark: #444;
-	--darkpath-border--color-underline-inactive: #655e53;
-	--darkpath-border--color-underline-active: #7d7466;
-	--darkpath-border--color-underline-header: #a33e2e;
-	--darkpath-border--color-border-light-highlight: #4e4e26;
-	--darkpath-border--color-border-light-primary: #474d50;
-	--darkpath-border--color-border-light-secondary: #42474a;
-	--darkpath-border--color-border-light-tertiary: #655e53;
-	--darkpath-bg--color-border-dark: #000000;
-	--darkpath-border--color-border-dark: #8c8273;
-	--darkpath-border--color-border-dark-primary: #857b6d;
-	--darkpath-border--color-border-dark-secondary: #81786a;
-	--darkpath-border--color-border-dark-tertiary: #746c60;
-	--darkpath-border--color-border-highlight: #b34600;
-	--darkpath-border--color-border-highlight-alt: #b30000;
-	--darkpath-bg--color-bg-btn-minor-inactive: #363429;
-	--darkpath-bg--color-bg-btn-minor-active: #474c4f;
-	--darkpath-bg--color-bg-option: #2d2b21;
+    --darkpath-text--color-text-light-highlight: #e4e4c7;
+    --darkpath-text--color-text-light-heading: #acbeff;
+    --darkpath-text--color-text-light-primary: #b4ada4;
+    --darkpath-text--color-text-dark-secondary: #bbb5ac;
+    --darkpath-text--color-text-dark-inactive: #9e9589;
+    --darkpath-text--color-text-hyperlink: #ff741a;
+    --darkpath-text--color-text-light-0: #e8e6e3;
+    --darkpath-text--color-text-light-1: #dddad6;
+    --darkpath-bg--color-shadow-primary: #cc0000;
+    --darkpath-bg--color-shadow-highlight: #cc5000;
+    --darkpath-bg--color-shadow-dark: #444;
+    --darkpath-border--color-underline-inactive: #655e53;
+    --darkpath-border--color-underline-active: #7d7466;
+    --darkpath-border--color-underline-header: #a33e2e;
+    --darkpath-border--color-border-light-highlight: #4e4e26;
+    --darkpath-border--color-border-light-primary: #474d50;
+    --darkpath-bg--color-border-dark: #000000;
+    --darkpath-bg--color-bg-btn-minor-inactive: #363429;
+    --darkpath-bg--color-bg-btn-minor-active: #474c4f;
+    --darkpath-bg--color-bg-option: #2d2b21;
     --darkpath-neutral-background: #131516;
     --darkpath-neutral-text: #d8d4cf;
     --darkpath-selection-background: #004daa;
@@ -60,49 +26,52 @@
     --darkpath-damage: #d77373;
     --darkpath-icon-color: #586064;
     --darkpath-menu-selection: #2c2f33;
-	--z-index-canvas: 0;
-	--z-index-app: 30;
-	--z-index-ui: 60;
-	--z-index-window: 100;
-	--sidebar-width: 300px;
-	--sidebar-header-height: 32px;
-	--sidebar-item-height: 48px;
-	--hotbar-height: 52px;
-	--hotbar-width: 578px;
-	--macro-size: 50px;
-	--players-width: 200px;
-	--form-field-height: 26px;
-	--font-primary: "Signika", sans-serif;
-	--font-mono: monospace;
-	--font-size-11: 0.6875rem;
-	--font-size-12: 0.75rem;
-	--font-size-13: 0.8125rem;
-	--font-size-14: 0.875rem;
-	--font-size-16: 1rem;
-	--font-size-18: 1.125rem;
-	--font-size-20: 1.25rem;
-	--font-size-24: 1.5rem;
-	--font-size-28: 1.75rem;
-	--line-height-12: 0.75rem;
-	--line-height-16: 1rem;
-	--line-height-20: 1.25rem;
-	--line-height-30: 1.875rem;
+    --z-index-canvas: 0;
+    --z-index-app: 30;
+    --z-index-ui: 60;
+    --z-index-window: 100;
+    --sidebar-width: 300px;
+    --sidebar-header-height: 32px;
+    --sidebar-item-height: 48px;
+    --hotbar-height: 52px;
+    --hotbar-width: 578px;
+    --macro-size: 50px;
+    --players-width: 200px;
+    --form-field-height: 26px;
+    --font-primary: "Signika", sans-serif;
+    --font-mono: monospace;
+    --font-size-11: 0.6875rem;
+    --font-size-12: 0.75rem;
+    --font-size-13: 0.8125rem;
+    --font-size-14: 0.875rem;
+    --font-size-16: 1rem;
+    --font-size-18: 1.125rem;
+    --font-size-20: 1.25rem;
+    --font-size-24: 1.5rem;
+    --font-size-28: 1.75rem;
+    --line-height-12: 0.75rem;
+    --line-height-16: 1rem;
+    --line-height-20: 1.25rem;
+    --line-height-30: 1.875rem;
 }
 
 section.window-content {
     background: var(--darkpath-neutral-background) !important;
-    color: var(--darkpath-neutral-text)!important;
+    color: var(--darkpath-neutral-text) !important;
 }
 
 .pf1.chat-card .card-header h3 {
     color: var(--darkpath-text--color-text-light-heading);
 }
+
 .pf1.entry tbody tr {
     background-color: var(--darkpath-neutral-background);
 }
+
 .pf1.entry tbody tr:nth-child(even) {
     background-color: var(--darkpath-bg--color-shadow-dark);
 }
+
 .pf1.sheet .sheet-navigation.tabs {
     border-bottom: 2px groove #eeede0;
     background: #2C2F33;
@@ -111,6 +80,7 @@ section.window-content {
 .pf1.sheet.actor ul.attributes li.attribute {
     background: #2C2F33;
 }
+
 .pf1.sheet.actor h4.box-title {
     line-height: 16px;
     margin: 4px 8px 2px;
@@ -118,6 +88,7 @@ section.window-content {
     font-size: 18px;
     border-bottom: 1px solid #b5b3a4;
 }
+
 .pf1.sheet.actor .ability-scores .ability {
     height: 94px;
     margin: 0 2px;
@@ -134,64 +105,82 @@ section.window-content {
     color: #9c9c9c;
     background: #2b32476e;
 }
+
 .pf1.sheet.actor .ability-scores .ability .ability-modifiers input[type="text"].ability-base {
     border-left: 2px groove #2c2f34;
     border-top: 2px groove #2c2f34;
 }
-.pf1.sheet.actor .attributes .traits > * {
+
+.pf1.sheet.actor .attributes .traits>* {
     flex: 0 0 24px;
     background-color: var(--darkpath-bg--color-shadow-dark);
     border: 1px solid var(--darkpath-bg--color-border-dark);
 }
+
 .pf1.sheet.actor .traits input {
     text-align: right;
     margin-left: 7px;
 }
+
 .filepicker .display-modes a {
     margin: 0 3px;
     border: 1px solid var(--darkpath-bg--color-shadow-dark);
     background: var(--darkpath-bg--color-bg-btn-minor-inactive);
     border-radius: 3px;
 }
+
 .filepicker .display-modes a.active {
     text-shadow: 0 0 6px var(--darkpath-bg--color-shadow-highlight);
     border: 1px solid var(--darkpath-bg--color-border-dark);
     background: var(--darkpath-bg--color-bg-btn-minor-active);
 }
+
 section.center-pane {
     background: #2C2F33;
 }
+
 input {
     color: var(--darkpath-neutral-text) !important;
 }
+
 label {
     color: #d5dce9 !important;
 }
+
 input.ability-damage {
-	color: var(--darkpath-damage) !important;
+    color: var(--darkpath-damage) !important;
 }
+
 input.ability-penalty {
-	color: var(--darkpath-damage) !important;
+    color: var(--darkpath-damage) !important;
 }
+
 input.ability-drain {
-	color: var(--darkpath-damage) !important;
+    color: var(--darkpath-damage) !important;
 }
+
 .pf1.sheet .sheet-navigation .item.active {
     border-bottom: 3px solid #acbeff;
     color: var(--darkpath-neutral-text);
 }
+
 .pf1.sheet .editable .rollable:hover {
     color: var(--darkpath-text--color-text-light-heading);
     text-shadow: 0 0 10px var(--darkpath-text--color-text-light-heading);
     cursor: pointer;
 }
+
 a.item {
     color: #c5c5c5;
 }
+
 /* Compendium link buttons (with the open book icon) */
-a.entity-link, a.content-link, a.inline-roll {
+a.entity-link,
+a.content-link,
+a.inline-roll {
     background: #ddd0;
 }
+
 /* Age notes */
 span.element.style {
     color: var(--darkpath-neutral-text);
@@ -204,11 +193,14 @@ span.element.style {
     background: #202225;
     border: 1px solid #202225;
 }
+
 ::placeholder {
     color: #848484 !important;
 }
 
-.pf1 input[type="text"], .pf1 select, .pf1 .placeholder {
+.pf1 input[type="text"],
+.pf1 select,
+.pf1 .placeholder {
     border: 1px solid #7a7971;
     background: var(--darkpath-neutral-background);
     color: #bdbcaf;
@@ -229,24 +221,32 @@ span.element.style {
 li.tag {
     color: #bfbfbf !important;
     background: var(--darkpath-neutral-background) !important;
-    border-color: var()!important;
+    border-color: var() !important;
 }
+
 h3 {
     color: var(--darkpath-text--color-text-light-heading);
 }
+
 i {
     color: var(--darkpath-neutral-text);
 }
-.pf1.sheet.actor ul.skills-list li.skill.untrained .skill-name, .pf1.sheet.actor ul.skills-list li.sub-skill.untrained .skill-name {
+
+.pf1.sheet.actor ul.skills-list li.skill.untrained .skill-name,
+.pf1.sheet.actor ul.skills-list li.sub-skill.untrained .skill-name {
     color: var(--darkpath-text--color-text-dark-inactive);
 }
-.pf1.sheet.actor ul.skills-list li.skill .skill-name .image-d20, .pf1.sheet.actor ul.skills-list li.sub-skill .skill-name .image-d20 {
+
+.pf1.sheet.actor ul.skills-list li.skill .skill-name .image-d20,
+.pf1.sheet.actor ul.skills-list li.sub-skill .skill-name .image-d20 {
     filter: contrast(0.5);
 }
+
 .pf1.sheet.actor .condition label span {
     font-size: 12px;
     color: #99AAB5;
 }
+
 .pf1.sheet.actor .inventory-list .inventory-header {
     margin: 2px 0;
     padding: 0;
@@ -255,55 +255,76 @@ i {
     font-weight: bold;
     line-height: 24px;
 }
-.pf1.sheet.actor .spellbook-group .spell-comps .spell-input-readonly, .pf1.sheet.actor .spellbook-group .spell-uses .spell-input-readonly {
+
+.pf1.sheet.actor .spellbook-group .spell-comps .spell-input-readonly,
+.pf1.sheet.actor .spellbook-group .spell-uses .spell-input-readonly {
     color: var(--darkpath-neutral-text);
 }
 
 .pf1.sheet.actor .inventory-list .inventory-header .item-controls a.item-create {
     color: var(--darkpath-neutral-text);
 }
+
 .pf1.sheet.actor .inventory-list .item-detail {
     color: var(--darkpath-neutral-text);
 }
-.pf1.sheet .inventory-list .item-detail .icon, .pf1.sheet .items-list .item-detail .icon {
-	background-color: var(--darkpath-icon-color);
+
+.pf1.sheet .inventory-list .item-detail .icon,
+.pf1.sheet .items-list .item-detail .icon {
+    background-color: var(--darkpath-icon-color);
 }
+
 .tox.tox-tinymce {
     background: white;
 }
-.pf1.sheet.item h4.damage-header, .pf1.sheet.item h4.change-header, .pf1.sheet.item h4.context-notes-header, .pf1.sheet.item h4.attack-header {
+
+.pf1.sheet.item h4.damage-header,
+.pf1.sheet.item h4.change-header,
+.pf1.sheet.item h4.context-notes-header,
+.pf1.sheet.item h4.attack-header {
     margin: 0;
     padding: 0;
     font-weight: bold;
     line-height: 24px;
     color: #99AAB5;
 }
+
 .pf1 .form-group label.header {
     flex: 0 0 100%;
     color: var(--darkpath-text--color-text-light-heading) !important;
 }
-form h1.form-header, form h2.form-header, form h3.form-header {
+
+form h1.form-header,
+form h2.form-header,
+form h3.form-header {
     color: var(--darkpath-text--color-text-light-heading);
 }
+
 h4.form-header {
     color: var(--darkpath-text--color-text-light-heading);
 }
+
 .pf1.sheet.item .sheet-header .item-subtitle {
     color: var(--darkpath-text--color-text-dark-secondary);
 }
-.pf1.sheet.item .details input[type="text"], .pf1.sheet.item .details select {
+
+.pf1.sheet.item .details input[type="text"],
+.pf1.sheet.item .details select {
     border: 1px solid #7a7971;
     background: var(--darkpath-neutral-background);
 }
+
 .pf1.sheet.actor .sheet-header .header-details .attribute.speed .attribute-speed input[type="text"] {
     height: 16px;
     margin: 0;
     background: var(--darkpath-neutral-background);
     padding: 0;
 }
+
 .pf1.sheet.actor .attributes input[type="text"] {
     height: 24px;
 }
+
 .pf1.sheet.actor .inventory-filters .currency input[type="text"] {
     flex: 0 0 64px;
     text-align: center;
@@ -311,6 +332,7 @@ h4.form-header {
     margin-left: 8px;
     border-bottom: 2px groove #eeede0;
 }
+
 .pf1.sheet.actor .carry-bonus input[type="text"] {
     flex: 0 0 48px;
     text-align: center;
@@ -324,10 +346,12 @@ h4.form-header {
     color: var(--darkpath-neutral-text);
     background: var(--darkpath-neutral-background);
 }
+
 a.item:hover {
     color: var(--darkpath-text--color-text-light-0);
     background: var(--darkpath-neutral-background);
 }
+
 .pf1.sheet.actor.character .sheet-header .charlevel .xpbar .bar {
     height: 4px;
     margin: 1px;
@@ -336,20 +360,23 @@ a.item:hover {
     border: 1px solid var(--darkpath-bg--color-border-dark);
     border-radius: 2px;
 }
+
 .pf1.sheet.actor.character .sheet-header .charlevel .level {
     height: 28px;
     color: #7681ce;
 }
+
 .pf1.sheet .sheet-header h1 input {
     height: 50px;
     color: #9fb7df !important;
     font-size: 36px;
 }
+
 .pf1.sheet .sheet-header .summary li {
     color: var(--darkpath-text--color-text-light-1);
 }
+
 #chat-log .message {
-    background: url(../ui/parchment.jpg) repeat;
     border: 2px solid #696969;
     border-radius: 5px;
     margin: 3px;
@@ -358,6 +385,7 @@ a.item:hover {
     background: #36393f;
     font-size: 14px;
 }
+
 #chat-log .message .message-header {
     line-height: 20px;
     color: var(--darkpath-text--color-text-dark-header);
@@ -368,12 +396,14 @@ option {
 }
 
 span.tag {
-    background: var(--darkpath-neutral-background)!important;
+    background: var(--darkpath-neutral-background) !important;
     color: var(--darkpath-neutral-text);
 }
+
 span.text-box {
     color: var(--darkpath-neutral-text);
 }
+
 .dice-roll .dice-total {
     flex: 0;
     font-size: 20px;
@@ -381,9 +411,14 @@ span.text-box {
     background: var(--darkpath-text--color-text-light-heading);
 }
 
+.inline-roll .dice-tooltip {
+    background: var(--darkpath-bg--color-shadow-dark);
+}
+
 .dice-tooltip .part-header .part-total {
     background: var(--darkpath-border--color-border-light-primary);
 }
+
 .dice-tooltip .part-header .part-flavor {
     color: var(--darkpath-neutral-text);
 }
@@ -393,11 +428,14 @@ span.text-box {
     font-weight: bold;
     color: #ced2d4 !important;
 }
-.pf1 input[type="text"], .pf1 select {
+
+.pf1 input[type="text"],
+.pf1 select {
     border: 1px solid #7a7971;
     background: var(--darkpath-neutral-background);
     color: var(--darkpath-neutral-text);
 }
+
 .pf1.sheet select {
     flex: 1;
     font-size: 12px;
@@ -405,6 +443,7 @@ span.text-box {
     color: #99aab5;
     background: transparent;
 }
+
 .pf1.sheet textarea {
     font-family: sans-serif;
     border-color: #90a0ab;
@@ -412,42 +451,62 @@ span.text-box {
     padding: 1px 5px;
     color: var(--darkpath-neutral-text);
 }
+
 textarea {
     color: var(--darkpath-neutral-text);
 }
-.pf1.sheet input[type="text"]:hover, .pf1.sheet textarea:hover, .pf1.sheet input[type="text"]:focus, .pf1.sheet textarea:focus {
+
+.pf1.sheet input[type="text"]:hover,
+.pf1.sheet textarea:hover,
+.pf1.sheet input[type="text"]:focus,
+.pf1.sheet textarea:focus {
     border: 1px solid #fff;
 }
-.pf1.sheet.actor .tab.features label.checkbox, .pf1.sheet.actor .tab.inventory label.checkbox, .pf1.sheet.actor .tab.spellbook label.checkbox, .pf1.sheet.actor .alignment {
+
+.pf1.sheet.actor .tab.features label.checkbox,
+.pf1.sheet.actor .tab.inventory label.checkbox,
+.pf1.sheet.actor .tab.spellbook label.checkbox,
+.pf1.sheet.actor .alignment {
     text-align: left;
     flex: 0;
     margin: 0 0 0 4px;
-    color: var(--darkpath-neutral-text)!important;
+    color: var(--darkpath-neutral-text) !important;
 }
-.pf1.sheet.actor .tab.summary .attributes .health-details, .pf1.sheet.actor .tab.summary .attributes .speed-details {
+
+.pf1.sheet.actor .tab.summary .attributes .health-details,
+.pf1.sheet.actor .tab.summary .attributes .speed-details {
     border-right: var(--darkpath-bg--color-shadow-primary);
 }
 
 /* color of character Buffs text */
-.pf1.sheet.actor .tab.buffs a.checkbox{
+.pf1.sheet.actor .tab.buffs a.checkbox {
     color: #acaee3;
 }
+
 .pf1.sheet.actor .warning {
     background-color: #f58e00;
     border: 1px solid #fdfdfd;
     color: black;
 }
-form .notes, form .hint {
+
+a[href] {
+    color: var(--darkpath-text--color-text-hyperlink);
+}
+
+form .notes,
+form .hint {
     flex: 0 0 100%;
     font-size: 12px;
     color: var(--darkpath-neutral-text);
     margin: 3px 0;
 }
+
 #settings button {
     margin: 0.5em 0;
     background: #2C2F33;
     color: var(--darkpath-neutral-text);
 }
+
 #chat-form textarea {
     width: 100%;
     height: 100%;
@@ -455,6 +514,7 @@ form .notes, form .hint {
     background: var(--darkpath-neutral-background);
     color: var(--darkpath-neutral-text);
 }
+
 #scenes .scene h3 {
     line-height: 90px;
     text-align: center;
@@ -463,10 +523,12 @@ form .notes, form .hint {
     text-shadow: 1px 1px 3px #505b7d;
     border: solid 1px;
 }
+
 #chat-log .message.whisper {
     background: #acbeff38;
     border: 2px solid #545469;
 }
+
 #chat-controls div.roll-type-select select {
     position: relative;
     width: 200px;
@@ -476,6 +538,7 @@ form .notes, form .hint {
     color: var(--darkpath-neutral-text);
     top: -3px;
 }
+
 /* Source column in Compendium races browser */
 .compendium-browser .directory-container .directory-list .directory-item .entry-source {
     color: rgb(255 253 253 / 70%);
@@ -485,25 +548,31 @@ form .notes, form .hint {
     /* border-top: 1px solid #fff; */
     border-bottom: 1px solid #fff;
 }
+
 li.directory-item.entity.actor.flexrow {
     background: #36393f;
 }
+
 li.directory-item.entity.actor.flexrow:hover {
     background: var(--darkpath-neutral-background);
 }
+
 #sidebar {
     border: 1px solid var(--darkpath-bg--color-border-dark);
     background: var(--darkpath-neutral-background);
 }
+
 button {
     color: var(--darkpath-neutral-text);
     background: var(--darkpath-bg--color-bg-btn-minor-inactive);
 }
+
 button:hover {
     color: var(--darkpath-bg--color-bg-btn-minor-active);
     background: var(--darkpath-border--color-underline-active);
     text-shadow: 0 0 2px;
 }
+
 select {
     height: 25px;
     background: var(--darkpath-menu-selection);
@@ -513,6 +582,7 @@ select {
     padding: 0 3px;
     text-overflow: ellipsis;
 }
+
 #pause h3 {
     margin: 0;
     font-size: 2em;
@@ -523,21 +593,27 @@ select {
     z-index: 99;
     color: #EEE;
     text-shadow: 1px 1px 30px #acbeff;
-    color: var(--darkpath-neutral-text)!important;
+    color: var(--darkpath-neutral-text) !important;
 }
+
 /* li {
     color: #d9dacc;
 } */
-#module-management .package-list .package-title, #module-management .package-list .package-metadata, #module-management .package-list .package-description {
+#module-management .package-list .package-title,
+#module-management .package-list .package-metadata,
+#module-management .package-list .package-description {
     color: #fdfdfa;
 }
-.pf1.sheet.actor .inventory-filters h3, .pf1.sheet.actor .inventory-filters .filter-title {
+
+.pf1.sheet.actor .inventory-filters h3,
+.pf1.sheet.actor .inventory-filters .filter-title {
     font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
     font-size: 20px;
     color: #9fb7df;
     font-size: 18px;
     margin: 0;
 }
+
 .package-list .package .tag {
     display: inline-block;
     border: 1px solid var(--darkpath-bg--color-border-dark);
@@ -550,6 +626,7 @@ select {
     background: var(--darkpath-bg--color-bg-btn-minor-active);
     color: var(--darkpath-neutral-text);
 }
+
 .pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-drain {
     flex: 1;
     height: 24px;
@@ -558,6 +635,7 @@ select {
     border-left: 2px solid #2c2f33;
     background: var(--darkpath-bg--color-bg-btn-minor-active);
 }
+
 .pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-penalty {
     flex: 1;
     height: 24px;
@@ -565,6 +643,7 @@ select {
     border-right: 2px solid #2c2f33;
     background: var(--darkpath-bg--color-bg-btn-minor-active);
 }
+
 .pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-damage {
     flex: 1;
     height: 24px;
@@ -573,11 +652,13 @@ select {
     border-left: 2px solid #2c2f33;
     background: var(--darkpath-bg--color-bg-btn-minor-active);
 }
+
 .pf1.sheet.actor .ability-scores .ability .ability-header {
     height: 24px;
     margin: 0;
     border: 1px groove var(--darkpath-bg--color-border-dark);
 }
+
 .pf1.sheet.actor .ability-scores {
     margin-bottom: 5px;
 }
