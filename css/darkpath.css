@@ -408,7 +408,7 @@ span.text-box {
     flex: 0;
     font-size: 20px;
     font-weight: bold;
-    background: var(--darkpath-text--color-text-light-heading);
+    background: var(--darkpath-bg--color-bg-btn-minor-active);
 }
 
 .inline-roll .dice-tooltip {
@@ -538,7 +538,9 @@ form .hint {
     color: var(--darkpath-neutral-text);
     top: -3px;
 }
-
+#chat-controls .roll-type-select {
+    background: var(--darkpath-menu-selection);
+}
 /* Source column in Compendium races browser */
 .compendium-browser .directory-container .directory-list .directory-item .entry-source {
     color: rgb(255 253 253 / 70%);
