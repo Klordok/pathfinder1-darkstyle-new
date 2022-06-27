@@ -1,6 +1,6 @@
 :root {
 	--darkpath-text--color-text-light-highlight: #e4e4c7;
-	--darkpath-text--color-text-light-heading: #c1bbb3;
+	--darkpath-text--color-text-light-heading: #acbeff;
 	--darkpath-border--color-text-light-heading: #42474a;
 	--darkpath-text--color-text-light-primary: #b4ada4;
 	--darkpath-border--color-text-light-primary: #474d50;
@@ -35,7 +35,7 @@
 	--darkpath-border--color-border-dark-5: #6a6357;
 	--darkpath-bg--color-shadow-primary: #cc0000;
 	--darkpath-bg--color-shadow-highlight: #cc5000;
-	--darkpath-bg--color-shadow-dark: #000000;
+	--darkpath-bg--color-shadow-dark: #444;
 	--darkpath-border--color-underline-inactive: #655e53;
 	--darkpath-border--color-underline-active: #7d7466;
 	--darkpath-border--color-underline-header: #a33e2e;
@@ -92,6 +92,16 @@ section.window-content {
     background: var(--darkpath-neutral-background) !important;
     color: var(--darkpath-neutral-text)!important;
 }
+
+.pf1.chat-card .card-header h3 {
+    color: var(--darkpath-text--color-text-light-heading);
+}
+.pf1.entry tbody tr {
+    background-color: var(--darkpath-neutral-background);
+}
+.pf1.entry tbody tr:nth-child(even) {
+    background-color: var(--darkpath-bg--color-shadow-dark);
+}
 .pf1.sheet .sheet-navigation.tabs {
     border-bottom: 2px groove #eeede0;
     background: #2C2F33;
@@ -129,7 +139,7 @@ section.window-content {
 }
 .pf1.sheet.actor .attributes .traits > * {
     flex: 0 0 24px;
-    background-color: var(--darkpath-neutral-background);
+    background-color: var(--darkpath-bg--color-shadow-dark);
     border: 1px solid var(--darkpath-bg--color-border-dark);
 }
 .pf1.sheet.actor .traits input {
@@ -159,8 +169,8 @@ input.ability-drain {
     color: var(--darkpath-neutral-text);
 }
 .pf1.sheet .editable .rollable:hover {
-    color: #acbeff;
-    text-shadow: 0 0 10px #acbeff;
+    color: var(--darkpath-text--color-text-light-heading);
+    text-shadow: 0 0 10px var(--darkpath-text--color-text-light-heading);
     cursor: pointer;
 }
 a.item {
@@ -188,7 +198,7 @@ span.element.style {
 
 .pf1 input[type="text"], .pf1 select, .pf1 .placeholder {
     border: 1px solid #7a7971;
-    background: rgba(0, 0, 0, 0.05);
+    background: var(--darkpath-neutral-background);
     color: #bdbcaf;
 }
 
@@ -210,10 +220,13 @@ li.tag {
     border-color: var()!important;
 }
 h3 {
-    color: #acbeff;
+    color: var(--darkpath-text--color-text-light-heading);
 }
 i {
     color: var(--darkpath-neutral-text);
+}
+.pf1.sheet.actor ul.skills-list li.skill.untrained .skill-name, .pf1.sheet.actor ul.skills-list li.sub-skill.untrained .skill-name {
+    color: var(--darkpath-text--color-text-dark-inactive);
 }
 .pf1.sheet.actor ul.skills-list li.skill .skill-name .image-d20, .pf1.sheet.actor ul.skills-list li.sub-skill .skill-name .image-d20 {
     filter: contrast(0.5);
@@ -255,10 +268,16 @@ i {
 }
 .pf1 .form-group label.header {
     flex: 0 0 100%;
-    color: #acbeff !important;
+    color: var(--darkpath-text--color-text-light-heading) !important;
+}
+form h1.form-header, form h2.form-header, form h3.form-header {
+    color: var(--darkpath-text--color-text-light-heading);
 }
 h4.form-header {
-    color: #acbeff;
+    color: var(--darkpath-text--color-text-light-heading);
+}
+.pf1.sheet.item .sheet-header .item-subtitle {
+    color: var(--darkpath-text--color-text-dark-secondary);
 }
 .pf1.sheet.item .details input[type="text"], .pf1.sheet.item .details select {
     border: 1px solid #7a7971;
@@ -289,7 +308,7 @@ h4.form-header {
 }
 
 .pf1.sheet .sheet-navigation .item.active {
-    border-bottom: 3px solid #acbeff;
+    border-bottom: 3px solid var(--darkpath-text--color-text-light-heading);
     color: var(--darkpath-neutral-text);
     background: var(--darkpath-neutral-background);
 }
@@ -313,6 +332,9 @@ a.item:hover {
     height: 50px;
     color: #9fb7df !important;
     font-size: 36px;
+}
+.pf1.sheet .sheet-header .summary li {
+    color: var(--darkpath-text--color-text-light-1);
 }
 #chat-log .message {
     background: url(../ui/parchment.jpg) repeat;
@@ -340,7 +362,7 @@ span.text-box {
     flex: 0;
     font-size: 20px;
     font-weight: bold;
-    background: #acbeff;
+    background: var(--darkpath-text--color-text-light-heading);
 }
 #chat-log .message .property-group label {
     flex: 2;
@@ -349,7 +371,7 @@ span.text-box {
 }
 .pf1 input[type="text"], .pf1 select {
     border: 1px solid #7a7971;
-    background: rgba(0, 0, 0, 0.05);
+    background: var(--darkpath-neutral-background);
     color: var(--darkpath-neutral-text);
 }
 .pf1.sheet select {
@@ -374,6 +396,9 @@ span.text-box {
     flex: 0;
     margin: 0 0 0 4px;
     color: var(--darkpath-neutral-text)!important;
+}
+.pf1.sheet.actor .tab.summary .attributes .health-details, .pf1.sheet.actor .tab.summary .attributes .speed-details {
+    border-right: var(--darkpath-bg--color-shadow-primary);
 }
 
 /* color of character Buffs text */
