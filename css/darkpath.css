@@ -59,6 +59,7 @@
     --darkpath-selection-text: #e8e6e3;
     --darkpath-damage: #d77373;
     --darkpath-icon-color: #586064;
+    --darkpath-menu-selection: #2c2f33;
 	--z-index-canvas: 0;
 	--z-index-app: 30;
 	--z-index-ui: 60;
@@ -362,6 +363,10 @@ a.item:hover {
     color: var(--darkpath-text--color-text-dark-header);
 }
 
+option {
+    background: var(--darkpath-bg--color-bg-option);
+}
+
 span.tag {
     background: var(--darkpath-neutral-background)!important;
     color: var(--darkpath-neutral-text);
@@ -405,6 +410,9 @@ span.text-box {
     border-color: #90a0ab;
     min-height: 16px;
     padding: 1px 5px;
+    color: var(--darkpath-neutral-text);
+}
+textarea {
     color: var(--darkpath-neutral-text);
 }
 .pf1.sheet input[type="text"]:hover, .pf1.sheet textarea:hover, .pf1.sheet input[type="text"]:focus, .pf1.sheet textarea:focus {
@@ -498,9 +506,9 @@ button:hover {
 }
 select {
     height: 25px;
-    background: var(--darkpath-selection-background);
+    background: var(--darkpath-menu-selection);
     border: 1px solid var(--darkpath-selection-text);
-    color: #92a2ac;
+    color: var(--darkpath-neutral-text);
     border-radius: 3px;
     padding: 0 3px;
     text-overflow: ellipsis;
