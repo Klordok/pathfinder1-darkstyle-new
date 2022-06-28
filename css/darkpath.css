@@ -53,43 +53,43 @@
     --line-height-16: 1rem;
     --line-height-20: 1.25rem;
     --line-height-30: 1.875rem;
-}
-
-section.window-content {
+  }
+  
+  section.window-content {
     background: var(--darkpath-neutral-background) !important;
     color: var(--darkpath-neutral-text) !important;
-}
-
-.pf1.chat-card .card-header h3 {
+  }
+  
+  .pf1.chat-card .card-header h3 {
     color: var(--darkpath-text--color-text-light-heading);
-}
-
-.pf1.entry tbody tr {
+  }
+  
+  .pf1.entry tbody tr {
     background-color: var(--darkpath-neutral-background);
-}
-
-.pf1.entry tbody tr:nth-child(even) {
+  }
+  
+  .pf1.entry tbody tr:nth-child(even) {
     background-color: var(--darkpath-bg--color-shadow-dark);
-}
-
-.pf1.sheet .sheet-navigation.tabs {
+  }
+  
+  .pf1.sheet .sheet-navigation.tabs {
     border-bottom: 2px groove #eeede0;
-    background: #2C2F33;
-}
-
-.pf1.sheet.actor ul.attributes li.attribute {
-    background: #2C2F33;
-}
-
-.pf1.sheet.actor h4.box-title {
+    background: #2c2f33;
+  }
+  
+  .pf1.sheet.actor ul.attributes li.attribute {
+    background: #2c2f33;
+  }
+  
+  .pf1.sheet.actor h4.box-title {
     line-height: 16px;
     margin: 4px 8px 2px;
     background: #0000004f !important;
     font-size: 18px;
     border-bottom: 1px solid #b5b3a4;
-}
-
-.pf1.sheet.actor .ability-scores .ability {
+  }
+  
+  .pf1.sheet.actor .ability-scores .ability {
     height: 94px;
     margin: 0 2px;
     text-align: center;
@@ -97,286 +97,299 @@ section.window-content {
     background: var(--darkpath-neutral-background);
     border-radius: 3px;
     color: currentColor;
-}
-
-.pf1.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod {
+  }
+  
+  .pf1.sheet.actor .ability-scores .ability .ability-modifiers span.ability-mod {
     border-right: 2px groove #2c2f34;
     border-top: 2px groove #2c2f34;
     color: #9c9c9c;
     background: #2b32476e;
-}
-
-.pf1.sheet.actor .ability-scores .ability .ability-modifiers input[type="text"].ability-base {
+  }
+  
+  .pf1.sheet.actor
+    .ability-scores
+    .ability
+    .ability-modifiers
+    input[type="text"].ability-base {
     border-left: 2px groove #2c2f34;
     border-top: 2px groove #2c2f34;
-}
-
-.pf1.sheet.actor .attributes .traits>* {
+  }
+  
+  .pf1.sheet.actor .attributes .traits > * {
     flex: 0 0 24px;
     background-color: var(--darkpath-bg--color-shadow-dark);
     border: 1px solid var(--darkpath-bg--color-border-dark);
-}
-
-.pf1.sheet.actor .traits input {
+  }
+  
+  .pf1.sheet.actor .traits input {
     text-align: right;
     margin-left: 7px;
-}
-
-.filepicker .display-modes a {
+  }
+  
+  .filepicker .display-modes a {
     margin: 0 3px;
     border: 1px solid var(--darkpath-bg--color-shadow-dark);
     background: var(--darkpath-bg--color-bg-btn-minor-inactive);
     border-radius: 3px;
-}
-
-.filepicker .display-modes a.active {
+  }
+  
+  .filepicker .display-modes a.active {
     text-shadow: 0 0 6px var(--darkpath-bg--color-shadow-highlight);
     border: 1px solid var(--darkpath-bg--color-border-dark);
     background: var(--darkpath-bg--color-bg-btn-minor-active);
-}
-
-section.center-pane {
-    background: #2C2F33;
-}
-
-input {
+  }
+  
+  section.center-pane {
+    background: #2c2f33;
+  }
+  
+  input {
     color: var(--darkpath-neutral-text) !important;
-}
-
-label {
+  }
+  
+  label {
     color: #d5dce9 !important;
-}
-
-input.ability-damage {
+  }
+  
+  input.ability-damage {
     color: var(--darkpath-damage) !important;
-}
-
-input.ability-penalty {
+  }
+  
+  input.ability-penalty {
     color: var(--darkpath-damage) !important;
-}
-
-input.ability-drain {
+  }
+  
+  input.ability-drain {
     color: var(--darkpath-damage) !important;
-}
-
-.pf1.sheet .sheet-navigation .item.active {
+  }
+  
+  .pf1.sheet .sheet-navigation .item.active {
     border-bottom: 3px solid #acbeff;
     color: var(--darkpath-neutral-text);
-}
-
-.pf1.sheet .editable .rollable:hover {
+  }
+  
+  .pf1.sheet .editable .rollable:hover {
     color: var(--darkpath-text--color-text-light-heading);
     text-shadow: 0 0 10px var(--darkpath-text--color-text-light-heading);
     cursor: pointer;
-}
-
-a.item {
+  }
+  
+  a.item {
     color: #c5c5c5;
-}
-
-/* Compendium link buttons (with the open book icon) */
-a.entity-link,
-a.content-link,
-a.inline-roll {
+  }
+  
+  /* Compendium link buttons (with the open book icon) */
+  a.entity-link,
+  a.content-link,
+  a.inline-roll {
     background: #ddd0;
-}
-
-/* Age notes */
-span.element.style {
+  }
+  
+  /* Age notes */
+  span.element.style {
     color: var(--darkpath-neutral-text);
     font-size: 13px;
-}
-
-::-webkit-scrollbar-thumb {
+  }
+  
+  ::-webkit-scrollbar-thumb {
     outline: none;
     border-radius: 3px;
     background: #202225;
     border: 1px solid #202225;
-}
-
-::placeholder {
+  }
+  
+  ::placeholder {
     color: #848484 !important;
-}
-
-.pf1 input[type="text"],
-.pf1 select,
-.pf1 .placeholder {
+  }
+  
+  .pf1 input[type="text"],
+  .pf1 select,
+  .pf1 .placeholder {
     border: 1px solid #7a7971;
     background: var(--darkpath-neutral-background);
     color: #bdbcaf;
-}
-
-.item-list-search .search-input {
+  }
+  
+  .item-list-search .search-input {
     border: 1px solid #7a7971;
     background-color: var(--darkpath-text--color-text-dark-inactive);
     max-width: 120px;
-}
-
-.pf1 .item-list-search .search-input {
+  }
+  
+  .pf1 .item-list-search .search-input {
     border: 1px solid #7a7971;
     background-color: #191813;
     max-width: 120px;
-}
-
-li.tag {
+  }
+  
+  li.tag {
     color: #bfbfbf !important;
     background: var(--darkpath-neutral-background) !important;
     border-color: var() !important;
-}
-
-h3 {
+  }
+  
+  h3 {
     color: var(--darkpath-text--color-text-light-heading);
-}
-
-i {
+  }
+  
+  i {
     color: var(--darkpath-neutral-text);
-}
-
-.pf1.sheet.actor ul.skills-list li.skill.untrained .skill-name,
-.pf1.sheet.actor ul.skills-list li.sub-skill.untrained .skill-name {
+  }
+  
+  .pf1.sheet.actor ul.skills-list li.skill.untrained .skill-name,
+  .pf1.sheet.actor ul.skills-list li.sub-skill.untrained .skill-name {
     color: var(--darkpath-text--color-text-dark-inactive);
-}
-
-.pf1.sheet.actor ul.skills-list li.skill .skill-name .image-d20,
-.pf1.sheet.actor ul.skills-list li.sub-skill .skill-name .image-d20 {
+  }
+  
+  .pf1.sheet.actor ul.skills-list li.skill .skill-name .image-d20,
+  .pf1.sheet.actor ul.skills-list li.sub-skill .skill-name .image-d20 {
     filter: contrast(0.5);
-}
-
-.pf1.sheet.actor .condition label span {
+  }
+  
+  .pf1.sheet.actor .condition label span {
     font-size: 12px;
-    color: #99AAB5;
-}
-
-.pf1.sheet.actor .inventory-list .inventory-header {
+    color: #99aab5;
+  }
+  
+  .pf1.sheet.actor .inventory-list .inventory-header {
     margin: 2px 0;
     padding: 0;
     background: rgba(255, 255, 255, 0.05);
     border: 2px groove var(--darkpath-bg--color-border-dark);
     font-weight: bold;
     line-height: 24px;
-}
-
-.pf1.sheet.actor .spellbook-group .spell-comps .spell-input-readonly,
-.pf1.sheet.actor .spellbook-group .spell-uses .spell-input-readonly {
+  }
+  
+  .pf1.sheet.actor .spellbook-group .spell-comps .spell-input-readonly,
+  .pf1.sheet.actor .spellbook-group .spell-uses .spell-input-readonly {
     color: var(--darkpath-neutral-text);
-}
-
-.pf1.sheet.actor .inventory-list .inventory-header .item-controls a.item-create {
+  }
+  
+  .pf1.sheet.actor
+    .inventory-list
+    .inventory-header
+    .item-controls
+    a.item-create {
     color: var(--darkpath-neutral-text);
-}
-
-.pf1.sheet.actor .inventory-list .item-detail {
+  }
+  
+  .pf1.sheet.actor .inventory-list .item-detail {
     color: var(--darkpath-neutral-text);
-}
-
-.pf1.sheet .inventory-list .item-detail .icon,
-.pf1.sheet .items-list .item-detail .icon {
+  }
+  
+  .pf1.sheet .inventory-list .item-detail .icon,
+  .pf1.sheet .items-list .item-detail .icon {
     background-color: var(--darkpath-icon-color);
-}
-
-.tox.tox-tinymce {
+  }
+  
+  .tox.tox-tinymce {
     background: white;
-}
-
-.pf1.sheet.item h4.damage-header,
-.pf1.sheet.item h4.change-header,
-.pf1.sheet.item h4.context-notes-header,
-.pf1.sheet.item h4.attack-header {
+  }
+  
+  .pf1.sheet.item h4.damage-header,
+  .pf1.sheet.item h4.change-header,
+  .pf1.sheet.item h4.context-notes-header,
+  .pf1.sheet.item h4.attack-header {
     margin: 0;
     padding: 0;
     font-weight: bold;
     line-height: 24px;
-    color: #99AAB5;
-}
-
-.pf1 .form-group label.header {
+    color: #99aab5;
+  }
+  
+  .pf1 .form-group label.header {
     flex: 0 0 100%;
     color: var(--darkpath-text--color-text-light-heading) !important;
-}
-
-form h1.form-header,
-form h2.form-header,
-form h3.form-header {
+  }
+  
+  form h1.form-header,
+  form h2.form-header,
+  form h3.form-header {
     color: var(--darkpath-text--color-text-light-heading);
-}
-
-h4.form-header {
+  }
+  
+  h4.form-header {
     color: var(--darkpath-text--color-text-light-heading);
-}
-
-.pf1.sheet.item .sheet-header .item-subtitle {
+  }
+  
+  .pf1.sheet.item .sheet-header .item-subtitle {
     color: var(--darkpath-text--color-text-dark-secondary);
-}
-
-.pf1.sheet.item .details input[type="text"],
-.pf1.sheet.item .details select {
+  }
+  
+  .pf1.sheet.item .details input[type="text"],
+  .pf1.sheet.item .details select {
     border: 1px solid #7a7971;
     background: var(--darkpath-neutral-background);
-}
-
-.pf1.sheet.actor .sheet-header .header-details .attribute.speed .attribute-speed input[type="text"] {
+  }
+  
+  .pf1.sheet.actor
+    .sheet-header
+    .header-details
+    .attribute.speed
+    .attribute-speed
+    input[type="text"] {
     height: 16px;
     margin: 0;
     background: var(--darkpath-neutral-background);
     padding: 0;
-}
-
-.pf1.sheet.actor .attributes input[type="text"] {
+  }
+  
+  .pf1.sheet.actor .attributes input[type="text"] {
     height: 24px;
-}
-
-.pf1.sheet.actor .inventory-filters .currency input[type="text"] {
+  }
+  
+  .pf1.sheet.actor .inventory-filters .currency input[type="text"] {
     flex: 0 0 64px;
     text-align: center;
     background: var(--darkpath-neutral-background);
     margin-left: 8px;
     border-bottom: 2px groove #eeede0;
-}
-
-.pf1.sheet.actor .carry-bonus input[type="text"] {
+  }
+  
+  .pf1.sheet.actor .carry-bonus input[type="text"] {
     flex: 0 0 48px;
     text-align: center;
     margin-left: 8px;
     background: var(--darkpath-neutral-background);
     border-bottom: 2px groove #eeede0;
-}
-
-.pf1.sheet .sheet-navigation .item.active {
+  }
+  
+  .pf1.sheet .sheet-navigation .item.active {
     border-bottom: 3px solid var(--darkpath-text--color-text-light-heading);
     color: var(--darkpath-neutral-text);
     background: var(--darkpath-neutral-background);
-}
-
-a.item:hover {
+  }
+  
+  a.item:hover {
     color: var(--darkpath-text--color-text-light-0);
     background: var(--darkpath-neutral-background);
-}
-
-.pf1.sheet.actor.character .sheet-header .charlevel .xpbar .bar {
+  }
+  
+  .pf1.sheet.actor.character .sheet-header .charlevel .xpbar .bar {
     height: 4px;
     margin: 1px;
     display: block;
     background: #7681ce;
     border: 1px solid var(--darkpath-bg--color-border-dark);
     border-radius: 2px;
-}
-
-.pf1.sheet.actor.character .sheet-header .charlevel .level {
+  }
+  
+  .pf1.sheet.actor.character .sheet-header .charlevel .level {
     height: 28px;
     color: #7681ce;
-}
-
-.pf1.sheet .sheet-header h1 input {
+  }
+  
+  .pf1.sheet .sheet-header h1 input {
     height: 50px;
     color: #9fb7df !important;
     font-size: 36px;
-}
-
-.pf1.sheet .sheet-header .summary li {
+  }
+  
+  .pf1.sheet .sheet-header .summary li {
     color: var(--darkpath-text--color-text-light-1);
-}
-
-#chat-log .message {
+  }
+  
+  #chat-log .message {
     border: 2px solid #696969;
     border-radius: 5px;
     margin: 3px;
@@ -384,152 +397,152 @@ a.item:hover {
     color: var(--darkpath-neutral-text);
     background: #36393f;
     font-size: 14px;
-}
-
-#chat-log .message .message-header {
+  }
+  
+  #chat-log .message .message-header {
     line-height: 20px;
     color: var(--darkpath-text--color-text-dark-header);
-}
-
-option {
+  }
+  
+  option {
     background: var(--darkpath-bg--color-bg-option);
-}
-
-span.tag {
+  }
+  
+  span.tag {
     background: var(--darkpath-neutral-background) !important;
     color: var(--darkpath-neutral-text);
-}
-
-span.text-box {
+  }
+  
+  span.text-box {
     color: var(--darkpath-neutral-text);
-}
-
-.dice-roll .dice-total {
+  }
+  
+  .dice-roll .dice-total {
     flex: 0;
     font-size: 20px;
     font-weight: bold;
     background: var(--darkpath-bg--color-bg-btn-minor-active);
-}
-
-.inline-roll .dice-tooltip {
+  }
+  
+  .inline-roll .dice-tooltip {
     background: var(--darkpath-bg--color-shadow-dark);
-}
-
-.dice-tooltip .part-header .part-total {
+  }
+  
+  .dice-tooltip .part-header .part-total {
     background: var(--darkpath-border--color-border-light-primary);
-}
-
-.dice-tooltip .part-header .part-flavor {
+  }
+  
+  .dice-tooltip .part-header .part-flavor {
     color: var(--darkpath-neutral-text);
-}
-
-#chat-log .message .property-group label {
+  }
+  
+  #chat-log .message .property-group label {
     flex: 2;
     font-weight: bold;
     color: #ced2d4 !important;
-}
-
-.pf1 input[type="text"],
-.pf1 select {
+  }
+  
+  .pf1 input[type="text"],
+  .pf1 select {
     border: 1px solid #7a7971;
     background: var(--darkpath-neutral-background);
     color: var(--darkpath-neutral-text);
-}
-
-.pf1.sheet select {
+  }
+  
+  .pf1.sheet select {
     flex: 1;
     font-size: 12px;
     height: 22px;
     color: #99aab5;
     background: transparent;
-}
-
-.pf1.sheet textarea {
+  }
+  
+  .pf1.sheet textarea {
     font-family: sans-serif;
     border-color: #90a0ab;
     min-height: 16px;
     padding: 1px 5px;
     color: var(--darkpath-neutral-text);
-}
-
-textarea {
+  }
+  
+  textarea {
     color: var(--darkpath-neutral-text);
-}
-
-.pf1.sheet input[type="text"]:hover,
-.pf1.sheet textarea:hover,
-.pf1.sheet input[type="text"]:focus,
-.pf1.sheet textarea:focus {
+  }
+  
+  .pf1.sheet input[type="text"]:hover,
+  .pf1.sheet textarea:hover,
+  .pf1.sheet input[type="text"]:focus,
+  .pf1.sheet textarea:focus {
     border: 1px solid #fff;
-}
-
-.pf1.sheet.actor .tab.features label.checkbox,
-.pf1.sheet.actor .tab.inventory label.checkbox,
-.pf1.sheet.actor .tab.spellbook label.checkbox,
-.pf1.sheet.actor .alignment {
+  }
+  
+  .pf1.sheet.actor .tab.features label.checkbox,
+  .pf1.sheet.actor .tab.inventory label.checkbox,
+  .pf1.sheet.actor .tab.spellbook label.checkbox,
+  .pf1.sheet.actor .alignment {
     text-align: left;
     flex: 0;
     margin: 0 0 0 4px;
     color: var(--darkpath-neutral-text) !important;
-}
-
-.pf1.sheet.actor .tab.summary .attributes .health-details,
-.pf1.sheet.actor .tab.summary .attributes .speed-details {
+  }
+  
+  .pf1.sheet.actor .tab.summary .attributes .health-details,
+  .pf1.sheet.actor .tab.summary .attributes .speed-details {
     border-right: var(--darkpath-bg--color-shadow-primary);
-}
-
-/* color of character Buffs text */
-.pf1.sheet.actor .tab.buffs a.checkbox {
+  }
+  
+  /* color of character Buffs text */
+  .pf1.sheet.actor .tab.buffs a.checkbox {
     color: #acaee3;
-}
-
-.pf1.sheet.actor .warning {
+  }
+  
+  .pf1.sheet.actor .warning {
     background-color: #f58e00;
     border: 1px solid #fdfdfd;
     color: black;
-}
-
-a[href] {
+  }
+  
+  a[href] {
     color: var(--darkpath-text--color-text-hyperlink);
-}
-
-form .notes,
-form .hint {
+  }
+  
+  form .notes,
+  form .hint {
     flex: 0 0 100%;
     font-size: 12px;
     color: var(--darkpath-neutral-text);
     margin: 3px 0;
-}
-
-#settings button {
+  }
+  
+  #settings button {
     margin: 0.5em 0;
-    background: #2C2F33;
+    background: #2c2f33;
     color: var(--darkpath-neutral-text);
-}
-
-#chat-form textarea {
+  }
+  
+  #chat-form textarea {
     width: 100%;
     height: 100%;
     resize: none;
     background: var(--darkpath-neutral-background);
     color: var(--darkpath-neutral-text);
-}
-
-#scenes .scene h3 {
+  }
+  
+  #scenes .scene h3 {
     line-height: 90px;
     text-align: center;
     font-size: 1.5em;
     font-weight: normal;
     text-shadow: 1px 1px 3px #505b7d;
     border: solid 1px;
-}
-
-#chat-log .message.whisper {
+  }
+  
+  #chat-log .message.whisper {
     background: #acbeff38;
     border: 2px solid #545469;
-}
-
-#chat-controls div.roll-type-select select {
+  }
+  
+  #chat-controls div.roll-type-select select {
     position: relative;
     width: 200px;
     height: 24px;
@@ -537,45 +550,49 @@ form .hint {
     border: 1px solid var(--darkpath-bg--color-border-dark);
     color: var(--darkpath-neutral-text);
     top: -3px;
-}
-#chat-controls .roll-type-select {
+  }
+  #chat-controls .roll-type-select {
     background: var(--darkpath-menu-selection);
-}
-/* Source column in Compendium races browser */
-.compendium-browser .directory-container .directory-list .directory-item .entry-source {
+  }
+  /* Source column in Compendium races browser */
+  .compendium-browser
+    .directory-container
+    .directory-list
+    .directory-item
+    .entry-source {
     color: rgb(255 253 253 / 70%);
-}
-
-.sidebar-tab .directory-list .entity {
+  }
+  
+  .sidebar-tab .directory-list .entity {
     /* border-top: 1px solid #fff; */
     border-bottom: 1px solid #fff;
-}
-
-li.directory-item.entity.actor.flexrow {
+  }
+  
+  li.directory-item.entity.actor.flexrow {
     background: #36393f;
-}
-
-li.directory-item.entity.actor.flexrow:hover {
+  }
+  
+  li.directory-item.entity.actor.flexrow:hover {
     background: var(--darkpath-neutral-background);
-}
-
-#sidebar {
+  }
+  
+  #sidebar {
     border: 1px solid var(--darkpath-bg--color-border-dark);
     background: var(--darkpath-neutral-background);
-}
-
-button {
+  }
+  
+  button {
     color: var(--darkpath-neutral-text);
     background: var(--darkpath-bg--color-bg-btn-minor-inactive);
-}
-
-button:hover {
+  }
+  
+  button:hover {
     color: var(--darkpath-bg--color-bg-btn-minor-active);
     background: var(--darkpath-border--color-underline-active);
     text-shadow: 0 0 2px;
-}
-
-select {
+  }
+  
+  select {
     height: 25px;
     background: var(--darkpath-menu-selection);
     border: 1px solid var(--darkpath-selection-text);
@@ -583,9 +600,9 @@ select {
     border-radius: 3px;
     padding: 0 3px;
     text-overflow: ellipsis;
-}
-
-#pause h3 {
+  }
+  
+  #pause h3 {
     margin: 0;
     font-size: 2em;
     font-weight: normal;
@@ -593,30 +610,30 @@ select {
     text-align: center;
     position: relative;
     z-index: 99;
-    color: #EEE;
+    color: #eee;
     text-shadow: 1px 1px 30px #acbeff;
     color: var(--darkpath-neutral-text) !important;
-}
-
-/* li {
-    color: #d9dacc;
-} */
-#module-management .package-list .package-title,
-#module-management .package-list .package-metadata,
-#module-management .package-list .package-description {
+  }
+  
+  /* li {
+      color: #d9dacc;
+  } */
+  #module-management .package-list .package-title,
+  #module-management .package-list .package-metadata,
+  #module-management .package-list .package-description {
     color: #fdfdfa;
-}
-
-.pf1.sheet.actor .inventory-filters h3,
-.pf1.sheet.actor .inventory-filters .filter-title {
+  }
+  
+  .pf1.sheet.actor .inventory-filters h3,
+  .pf1.sheet.actor .inventory-filters .filter-title {
     font-family: "Nodesto", "Signika", "Palatino Linotype", serif;
     font-size: 20px;
     color: #9fb7df;
     font-size: 18px;
     margin: 0;
-}
-
-.package-list .package .tag {
+  }
+  
+  .package-list .package .tag {
     display: inline-block;
     border: 1px solid var(--darkpath-bg--color-border-dark);
     border-radius: 3px;
@@ -627,40 +644,53 @@ select {
     text-decoration: none;
     background: var(--darkpath-bg--color-bg-btn-minor-active);
     color: var(--darkpath-neutral-text);
-}
-
-.pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-drain {
+  }
+  
+  .pf1.sheet.actor
+    .ability-scores
+    .ability
+    .ability-header
+    input[type="text"].ability-drain {
     flex: 1;
     height: 24px;
     border-bottom: 0;
     border-right: 2px solid #2c2f33;
     border-left: 2px solid #2c2f33;
     background: var(--darkpath-bg--color-bg-btn-minor-active);
-}
-
-.pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-penalty {
+  }
+  
+  .pf1.sheet.actor
+    .ability-scores
+    .ability
+    .ability-header
+    input[type="text"].ability-penalty {
     flex: 1;
     height: 24px;
     border-bottom: 0;
     border-right: 2px solid #2c2f33;
     background: var(--darkpath-bg--color-bg-btn-minor-active);
-}
-
-.pf1.sheet.actor .ability-scores .ability .ability-header input[type="text"].ability-damage {
+  }
+  
+  .pf1.sheet.actor
+    .ability-scores
+    .ability
+    .ability-header
+    input[type="text"].ability-damage {
     flex: 1;
     height: 24px;
     border-bottom: 0;
     border-right: 2px solid #2c2f33;
     border-left: 2px solid #2c2f33;
     background: var(--darkpath-bg--color-bg-btn-minor-active);
-}
-
-.pf1.sheet.actor .ability-scores .ability .ability-header {
+  }
+  
+  .pf1.sheet.actor .ability-scores .ability .ability-header {
     height: 24px;
     margin: 0;
     border: 1px groove var(--darkpath-bg--color-border-dark);
-}
-
-.pf1.sheet.actor .ability-scores {
+  }
+  
+  .pf1.sheet.actor .ability-scores {
     margin-bottom: 5px;
-}
+  }
+  
